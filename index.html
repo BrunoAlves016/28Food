@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,31 +8,89 @@
     <link rel="stylesheet" href="css/estilo.css">
     <!--IMPORTANDO A FONTE-->
     <link href="https://fonts.cdnfonts.com/css/curely" rel="stylesheet">
+
     <title>28Food</title>
 </head>
+
 <body>
-<div class="container">
-    <div class="logo" width="50px" height="50px"><img src="img/28foodlogomarca.svg" width="100px" height="100px"></div>
-    <div class="menu">
-        <a href="doces.html">Doces</a>
-        <a href="salgados.html">Salgados</a>
-        <a href="saladas">Saladas</a>  
+    <div class="container">
+        <div class="logo" width="50px" height="50px"><img src="img/28foodlogomarca.svg" width="100px" height="100px">
+        </div>
+        <div class="menu">
+            <a href="doces.html">Doces</a>
+            <a href="salgados.html">Salgados</a>
+            <a href="saladas">Saladas</a>
+        </div>
+
+        <div class="social">
+            <a href="facebook.com" class="fb"><img src="ícons/icons8-facebook-24.png"></a>
+            <a href="instagram.com" class="ins"><img src="ícons/icons8-instagram-24.png"></a>
+
+        </div>
     </div>
 
-    <div class="social">
-        <a href="facebook.com" class="fb"><img src="ícons/icons8-facebook-24.png"></a>
-        <a href="instagram.com" class="ins"><img src="ícons/icons8-instagram-24.png"></a>
-
+    <div class="pesquisa">
+        <input type="text" placeholder="Pesquisar">
+        <input type="submit" value="">
     </div>
-</div>
 
-<div class="pesquisa">
-    <input type="text" placeholder="Pesquisar">
-    <input type="submit" value=""> 
-</div>
+    <div class="a99">
+        <h1>99 ACABOU...NOOOOOOSSAA...AGORA É 28FOOD</h1>
+    </div>
+    <!--BANNER ROTATIVO DE SLIDES-->
 
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1- X</div>
+            <img src="./img/img-pao1.jpg" style="width: 1000px; height: 600px;">
+            <div class="text">PÃO FOFINHO</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2- X</div>
+            <img src="./img/img-espaguete1.jpg" style="width: 1000px; height: 600px;">
+            <div class="text"> ESPAGUETES DIVINO</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3- X</div>
+            <img src="./img/img-coxinha1.jpg" style="width: 1000px; height: 600px;">
+            <div class="text"> COXINHAS VARIADAS</div>
+        </div>
+    </div>
+    <br>
+
+    <div style="text-align: center;">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <!--VAMOS FALAR SOBRE CONTEÚDO OU SEJA CAIXAS DE RECEITAS-->
+    <div class="container-receitas">
+        <div class="receitabox">
+            <a href="" class="rec-texto"><img src="img/img-coxinha2.jpg" alt="Coxinha Tremenda" class="receitas-imagem" height="300px" width="300"></a>
+            <div class="overlay">
+            </div>
+        </div>
+
+        <div class="receitabox">
+            <a href="" class="rec-texto"><img src="img/img-espaguete2.jpg" alt="Espaguete Dos Deuses" class="receitas-imagem" height="300px" width="300"></a>
+            <div class="overlay">
+            </div>
+        </div>
+
+        <div class="receitabox">
+            <a href="" class="rec-texto"><img src="img/img-pao2.jpg" alt="Pão Fofinho" class="receitas-imagem" height="300px" width="300"></a>
+            <div class="overlay">
+            </div>
+        </div>
+    </div>
+    <!--IMPORTANDO JAVASCRIPT-->
+    <script src="scripts/script.js"></script>
 </body>
 <footer>
 
 </footer>
+
 </html>
